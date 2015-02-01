@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<link rel="icon" href="images/favico.gif" type="image/gif" sizes="16x16">
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css" media="screen">
+		<title>Select Breed based on Species</title>
+	</head>
+
+	<body>
+		<div class='container'>
+			<div class='input-group'>
+				<label>Select a species</label>
+				<select name='species' id='species' class='form-control'>
+					<option value='Feline'>Feline</option>
+					<option value='Avian'>Avian</option>
+					<option value='Canine'>Canine</option>
+					<option value='Other'>Other</option>
+				</select>
+			</div>
+			<div class='input-group'>
+				<label>Select a breed</label>
+				<select name='breed' id='breed' class='form-control'>
+					<option></option>
+				</select>
+			</div>
+		</div>
+		<script src="javascripts/speciesBreed.json"></script> 
+		<script src="javascripts/jquery-1.11.2.min.js"></script> 
+		<script src="javascripts/bootstrap.min.js"></script> 
+		<script src="javascripts/main.js"></script> 
+	</body>
+</html>
